@@ -1,0 +1,10 @@
+Rakesh
+borkin
+newyork
+122309
+
+Code      Name     Unit Price  Quantity    Amount
+a123     apple          45.67        23   1050.41
+p122    potato           2.56       101    258.56
+
+Total : 1308.97

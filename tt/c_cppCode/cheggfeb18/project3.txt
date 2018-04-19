@@ -1,0 +1,5 @@
+A.Smith        200001 25 40
+T.Philip       200002 20 35
+S.Long         200003 15 50
+G.Santos       200004 30 30
+F.Farkas       200005 22 55

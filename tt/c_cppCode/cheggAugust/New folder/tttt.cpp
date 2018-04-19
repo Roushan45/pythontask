@@ -1,0 +1,6 @@
+class T{
+	int main()
+	{
+		
+	}
+};

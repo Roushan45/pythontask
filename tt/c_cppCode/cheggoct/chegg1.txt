@@ -1,0 +1,36 @@
+Spam/Phishing attack 
+Spam is the unwanted/unexpected response for for the user , it contains ads for non-commercial product.
+It can also triggered important info from your computer by virus or worm on your device.
+
+Phishing attack it more like stealing the private info and has many form like sending the form to fill.
+Fraud jackpot and asking for money or account information and they are referred as spam email.
+
+In order to make report better can use below points.
+use end user feedback for malicious mails.
+
+in yur mail service provider there is onr option for report spam if u do that then mail service provider add those junk emails to blocked emails
+but it needs more feedback to block for everyone  but you will not not recieve, by doing that system will detect next email from this reported email and 
+it will not delivered in your genaral inbox but in span/junks folder.
+
+URL filtering:
+
+Now a days there are many victims of fraud by visting replica of web pages of their banks website.
+Lets suppose a bank with url www.xyzbank.com this is the geniuene websitr for bank but a attacker can create same UI website and minor change in website address
+like they will like www.xyzbamk.com as you can see in bank n replaced with m and generally user will not make attention so it will result in loosing the credentials
+and may be also loose money. So make sure URL is valid many installed web security or antivirus software will do that it will tell you that it is geniuene or not.
+And there are many balcklisted site which are marked as heavy destruction should also be fileter by system.
+
+Block spam based on content of email
+
+Many emails are come with very offensive workk so admin can define the set of words that are offensive and it should not be in content of generally emails then
+it also makes system for detecting spams/phishing more robust.
+
+Dont/never respond to spams/phishing
+
+Never respond to spams/phishing as a best practice it will lead to loose private confidential information. and make a habbit to report as spam it will make the 
+database more robust for blocking futher such emails.
+
+Weak password 
+
+A strong password policy should be enforce for all user if prevent from and phishing attack.
+

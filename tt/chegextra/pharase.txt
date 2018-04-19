@@ -1,0 +1,11 @@
+WelcomeToHackerRank!Thepurposeofthischallengeistofamiliarize 
+you with reading input from stdin (the standard input stream) 
+and writing output to stdout (the standard output stream) using our environment.
+
+Back to Square One
+Beating Around the Bush
+Cry Over Spilt Milk
+Cup Of Joe
+A Fool and His Money Are Soon Parted
+A Piece of Cake
+All Greek To Me

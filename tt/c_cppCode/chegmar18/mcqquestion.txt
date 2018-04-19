@@ -1,0 +1,26 @@
+Please find below answers <questionNo>. (<correctAnswer>) and explanations 
+
+1. (b)
+Explanation:
+Linked allowed to insert the node at any where it can be top ,bottom or in between of need
+so like it also allows deletion of nodes from anywhere same as adding the node.
+
+2). (c)
+linked not allows to access elements using indexing as like in arrays.
+in order the access the node start from  first and using next link find the required node.
+
+3). (a)
+list is the based on array based index which starts from 0 so in order to access
+first item names[0] will be the way.
+
+4. (b)
+as numarray[6] is the array of 6 elements means start index is 0 and last index is 5
+but in for loop value of cnt is initialize with 1 means index 0 that is first element will
+not initialized.
+
+5. (b)
+this is the inheritence based in which Car is the parent class and AeroCar is the child class which
+means AeroCar object have access of all the methods define in class Car and of course in his class methods.
+But Car class object can access the his class method only.
+so now you understand that in first option car is calling get_height() method which is define
+in subclass so it will not have visibility.

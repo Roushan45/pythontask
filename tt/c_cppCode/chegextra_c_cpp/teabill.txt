@@ -1,0 +1,25 @@
+David Moore.
+Order: Plain Coffee 14 oz
+Price of Coffee: $1.52
+Sales Tax: $0.12
+Total Amount Owed: $1.81
+Ran Willy
+Order: Latte 23 oz
+Price of Coffee: $6.44
+Sales Tax: $0.45
+Total Amount Owed: $6.89
+Lord Varvin
+Order: Plain Coffee 34 oz
+Price of Coffee: $4.42
+Sales Tax: $0.31
+Total Amount Owed: $4.73
+Scary Sherlock
+Order: Macchiato 15 oz
+Price of Coffee: $3.75
+Sales Tax: $0.26
+Total Amount Owed: $4.01
+Harry Pea
+Order: Frappuccino 67 oz
+Price of Coffee: $15.91
+Sales Tax: $1.10
+Total Amount Owed: $12.08

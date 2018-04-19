@@ -1,0 +1,2 @@
+Maximum : 42
+Integers strictly greater than : 42 34 23 

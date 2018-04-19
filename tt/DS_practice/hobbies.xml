@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Hobbies>
+	<Hobby>
+		<name>Singing</name>
+		<cost>245</cost>
+	</Hobby>
+	<Hobby>
+		<name>Watching Movie</name>
+		<cost>452</cost>
+	</Hobby>
+	<Hobby>
+		<name>Playing Game</name>
+		<cost>300</cost>
+	</Hobby>
+	<Hobby>
+		<name>Coding</name>
+		<cost>200</cost>
+	</Hobby>
+	<Hobby>
+		<name>Football</name>
+		<cost>400</cost>
+	</Hobby>
+</Hobbies>

@@ -1,0 +1,47 @@
+for performing this make sure you have tcpdump utility installed if not then please install
+on Debian platform : sudo apt install tcpdump -y
+on rhel/centos : sudo yum install tcpdump -y
+
+Make sure you have two machines running in sam network(wlan/wifi)
+
+get the name of interface attached by command : ip a
+here my server vm  connected to wifi and i have installed virtual box for Virtual machine
+
+on the client machine also get the name of attached interface and note down the ip address also
+
+As given in question  (Server SRV IP - 172.16.30.10) (Client CLT IP -172.16.31.10) but it might can differ
+so please verify once before doing it
+
+Q) On the server: Execute tcpdump with useful options: capture traffic on “eth1” (network card)
+from/to your server, display numeric values for hosts and services (port numbers),
+display ASCII output, display readable time format.
+
+Ans : So command for this will be 
+syntax: tcpdump -i <replace_with_interface>
+replace the interface name with yours
+in question eth1 given but it may br chage so verify it in ip a command
+example : tcpdump -i wlo1 -tttt
+
+Explain : tcpdump is installed package
+-i is a option for attaching interface 
+-tttt is for displaying the output in human readable format
+
+Q)On the server: Start an nc server on port 59999.
+this can be done by below command (make sure nc package installed)
+nc -l 59999
+
+Q)On the client: Connect to the nc server using an nc client.
+this can be done below command here need to give the host ip address as per given question it will be
+172.16.30.10 but please do verify before giving it 
+nc - 172.16.30.10 59999
+
+Q)Chat between server & client and view the messages being displayed in clear-text in your tcpdump output.
+please find below the chat screenshot and tcpdump output that containg the chat text
+
+Q)Store the tcpdump command line (not the tcpdump output) in a text file called tcpdumpMN.cli.  
+so basically i have little doubts in this question . i am assuming the it asking the comand that used for 
+displaying messages in tcpdump output
+ 
+
+
+

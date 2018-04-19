@@ -1,0 +1,30 @@
+Given n=1,999
+
+x=0.5;
+for i=1:n
+    y=x*x+10;
+    for j=i+1:n+2
+        z=x*y+2.5;
+        w=y*z;
+    end
+end
+
+I have analyzed the above code and also run the code and got the
+4003997 and its true.
+
+first for loop start with 1 and will run upto 1999
+so very first multipication will be y=x*x+10; and once second loop start
+it will run from addition of 1 to value of i 
+like in first loop value of i is 1 and once in nested for loop value of j will be 1 and will run until
+the n+2 that is 1001 so in evry loop value of j will be get incremented by 1. and in nested loop two multipication happening
+z=x*y+2.5; and w=y*z; so in first iteration value of i=1
+and count of multipication will be 1 in in main for loop and 2000*2=4000 +1=4001
+and in second loop value of i will be 2 and in nested loop value of j will be 3 and no of multipication
+will be 1999*2=3998+1=3999 and in every loop it will get decreasing by 2 until the value of i will be 
+1999 and once it will sum up it will be 4003997.
+
+
+I hope you get it if not please do let me know
+
+
+write a statement to change a relation R by adding an integer attribute x

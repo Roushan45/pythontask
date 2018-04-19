@@ -1,0 +1,62 @@
+Problem 03
+
+Given :
+
+int num1,num2,newNum;
+double x,y;
+
+a. num1 = 35 VALID
+b. newNum =  num1 - num2 VALID
+c. num1 = 5; num2 = 2 + num1; num1 = num2/3 VALID
+d. num1 * num2 = newNum INVALID 
+   Assignment should be always left to right  newNum = num1 * num2 is valid
+e. x = 12 * num1 -15.3 VALID
+f. num1 * 2 = newNum + num2 INVALID
+	no operations can be performed on left side only assignments can be done
+g. x/y = x*y; INVALID
+	no operations alowed on left side
+h. num2 = num1%2.0; INVALID
+	num1 and num2 is type of int and 2.0 is type of double
+	invalid operations
+i. newNum = static_cast<int> (x) %5; VALID
+j. x = x + y - 5 VALID
+k. newNum = num1 + static_cast<int> (4.6/2); VALID
+
+Problem 04
+
+a. 
+int x,y;
+x = 25;
+y = 18;
+
+b.
+int temp = 10;
+char ch = 'A';
+
+c.
+x = x + 5;
+
+d.
+double payRate = 12.50;
+
+e.
+int firstNum;
+int tempNum = firstNum;
+
+f.
+int temp = x;
+x=y
+y=temp
+
+g.
+x+12/y-18 //output will be 2.5
+
+h.
+char grade = 'A'
+
+i.
+int a,b,c,d;
+
+j.
+double z =2.0;
+x = int(z)

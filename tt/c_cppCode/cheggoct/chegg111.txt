@@ -1,0 +1,20 @@
+Using your own words, describe the main role of E-business and how is it different from E-commerce? Provide some examples to support your answer.
+
+Before diving to answer just want to let you that E-commerce is subset of E-business.
+
+E-commerce or electronic commerce is where monetry transacation made over the internet/intatnet in order to buy products online.
+It also can be used for enquiry the products information online means can comapare the prices from different buyers and help to make wisely decision before purchasing.
+Amazon , Ebay ,Alibaba are few examples of E-commerce where ebd user use these websites to purchase the goods online.
+
+E-business is not only limited to monetry transacation it have much broader scope. it is way to do business online or over the web. In very simple word lets you want to sell
+Television online but there are another things that need concern:
+a) You need television so you have to make sure of Television production.
+b) You need some strategy how to sell product.
+c) E-business can work for any business because it involves the whole business cycle from production, distribution, procurement,  sales, payment, fulfillment, restocking and marketing.
+d) You need several Department and work force for managing the E-business 
+e) You need to provide support for your product
+ for example Oracle is doing E-business by selling the Database product but before selling  they have manufactured and tested and they also providing 24 by 7
+ support for their coustomers.
+ Apart from Oracle there are many E-business based companies like google,Adobe and list too long.
+ 
+ please do let me know if u have any concern...

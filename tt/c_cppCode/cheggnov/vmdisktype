@@ -1,0 +1,23 @@
+I assumed that you using the virtualbox or VMware workstaion for virtual machine setup.
+And you confuse to select the menory type for virtual machine storage if i am right then please find below the explanation:
+
+i believe you getting two options 
+    a)fixed size memory
+    b)dynamic size memory
+
+what is fixed sized memory?
+Once you select the virtual machine disk as fixed size memory then virtualbox/workstaion will allocate all the memory that you 
+opeted at same time in other word if u selected 10 gb for virtual machine disk then 10 gb of space will be allocated to virtual maching
+instantly. This is also referred as thick disk provisioning.
+
+what is dynamic size memory or dynamic allocation.
+Once you selected the machine disk as the dynamic type then virtualbox/workstaion will allocate only that memore space that will have the actual virtual machine
+size at current. in other words if u selected 10 gb for virtual machine disk then it will consume only required space not all 10 gb
+at once. It will dynamically allocate the space as required. It is also referredf as thin disk provisioning.
+
+So, you can select and type of memory for virtual machine and can perform your lab.
+
+please do let me know if i have'nt met your expectations also add few keys that will help me to 
+drive the correct answer that you looking for.
+
+Thanks,

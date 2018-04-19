@@ -1,0 +1,40 @@
+36 Ophiuchi C|K5Ve|7.45
+Sirius|A1V|1.42
+Epsilon Eridani|K2V|6.18
+Giliese 673|K7V|8.10
+Rho Eridani A|K0V|6.27
+Rho Eridani B|K5V|6.40
+Epsilon Indi|K5Ve|6.89
+Tau Ceti|G8Vp|5.68
+Groombridge 1618|K7.0V|2.23
+Omicron 2 Eridani A|K1Ve|5.92
+70 Ophiuchi A|K1Ve|5.71
+70 Ophiuchi B|K5Ve|7.48
+61 Cygni A|K5.0V|7.49
+61 Cygni B|K7.0V|8.31
+Xi Bootis A|G4Ve|7.84
+Pi 3 Orionis A|F6V|3.67
+Gliese 105 A|K3V|6.50
+HD 4628|K2V|6.38
+Beta Hydri|G2VI|3.45
+107 Piscium|K1V|5.87
+Mu Cassiopeiae A|G5VI|5.78
+Fomalhaut B|K5Ve|7.07
+Vega|A0Va|0.58
+Procyon A|F5IV-V|2.65
+HR 7703 A|K3V|6.41
+82 G. Eridani|G8V|5.35
+Theta Pavonis|G7IV|4.62
+HR 8832|K3V|6.50
+Sun|G2V|4.80
+Alpha Centauri A|G2V|4.34
+Alpha Centauri B|K1V|5.70
+Giliese 667 A|K3V|7.07
+Giliese 667 B|K5V|8.02
+36 Ophiuchi A|K1Ve|6.18
+36 Ophiuchi B|K1Ve|6.22
+Xi Bootis A|G8Ve|5.59
+Fomalhaut A|A3V|1.74
+Altair|A7IV-V|2.20
+Sigma Draconis|G9V|5.87
+Gliese 570|K5Ve|6.86

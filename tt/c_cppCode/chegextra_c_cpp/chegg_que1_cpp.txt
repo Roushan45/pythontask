@@ -1,0 +1,42 @@
+Time frame is withing a week of posting. Not in a rush.
+Need a C++ Program that takes input from a text document, cleans up input, sorts input alphabetically by composer as well as alphabetized by title within composer, and then produce output on screen.
+Task: There is a CD available for purchase that contains .jpeg and .gif images of music that is in the public domain. The CD includes a file consisting of lines containing the names, then composers of that title, one per line. The name of the piece is first, then zero or more spaces then a dash (-) character, then one or more spaces, then the composer’s name. The composer name may be only the last name, an initial and one name, two names (first and last), or three names (first, middle, and last). There are a few tunes with “no author listed” as author. In the subsequent processing, “no author listed” should not be rearranged. Here is a very abbreviated list of the titles and authors:
+1. Adagio “MoonLight” Sonata - Ludwig Van Beethoven
+2. An Alexis - F.H. Hummel and J.N. Hummel
+3. A La Bien Aimee - Ben Schutt
+4. At Sunset - E. MacDowell
+5. Angelus - J. Massenet
+6. Anitra’s Dance - Edward Grieg
+7. Ase’s Death - Edward Grieg
+8. Au Matin- Benj. - Godard
+37. The Dying Poet - L. Gottschalk
+38. Dead March - G.F. Handel
+39. Do They Think of Me At Home - Chas. W. Glover
+40. The Dearest Spot - W.T. Wrighton
+1. Evening - L. Van Beethoven
+2. Embarrassment - Franz Abt
+3. Erin is my Home - no author listed
+4. Ellen Bayne - Stephen C. Foster
+9. Alla Mazurka - A. Nemerowsky
+1. The Dying Volunteer - A.E. Muse
+2. Dolly Day - Stephen C. Foster
+3. Dolcy Jones - Stephen C. Foster
+4. Dickory, Dickory, Dock - no author listed Programming
+5. The Dear Little Shamrock - no author listed
+6. Dutch Warbler - no author listed
+The ultimate task is to produce an alphabetized list of composers followed by a list of pieces by them alphabetized on the title within composer.
+This exercise is easier if it is broken into pieces:
+Write code to do the following:
+(i)
+a. Remove the lead numbers, any periods, and any spaces so that the first word of the title is the first word of the line.
+b. Replace any multiple spaces with a single space.
+c. A few titles may have several - characters, for example, 20. Ba- Be- Bi- Bo- Bu - no author listed
+(ii)
+Replace all dash - characters on any line before the end of the line by a space except the last one.
+d. The last word in the title may have the - character with no space between it and the = character. Put the space in.
+e. When alphabetizing the title, you do not want to consider an initial “A”, “An”, or “The” in the title. Write code to move such initial words to just before the - character. A comma after the last word in the title is not required, but that would be a nice touch. This can be done after the composer’s names are moved to the front, but obviously the code will be different.
+f. Move the composer’s names to the beginning of the line, followed by the character, followed by the composition title.
+g. Move any first initial, or first and second names of the composer to after the composer’s last name. If the composer is “no author listed” this should not be rearranged, so test for this combination.
+h. Alphabetize by composer using any sort routine you know. You may ignore any duplicate composer’s last name, such as CPE Bach and JS Bach, but sorting by composer’s second name would be a nice touch. You may use the insertion sort, or selection sort, or bubble sort, or other sorting algorithm.
+i. If you have not already done so, move “A”, “An”, or “The” that may begin a title to the end of the title. Then alphabetize within each composer by composition title.
+Please include detail as to how the text file should be structured prior to input to program.

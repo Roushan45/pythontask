@@ -1,0 +1,125 @@
+a. Loop will execute n^2 times.
+
+in first iteration value for i will be zero and for j it will be from 0 to n-1.
+
+for example take n=5
+
+1st iteration
+
+i =0, j =0
+
+i =0, j=1
+
+i =0, j=2
+
+i =0, j=3
+
+i =0, j=4
+
+2nd Iteration
+
+i =1, j=0
+
+i=1, j=1
+
+i=1, j=2
+
+i=1, j=3
+
+i=1, j=4
+
+and so on......
+
+Complexity will be O(n^2)  
+
+Time complexity of nested loops is equal to the number of times the innermost statement is executed. 
+
+
+
+b. Loop will execute n*2 times.
+
+in first iteration value for i will be zero and for j it will be 0 to 2-1.
+
+
+for example take n=5
+
+1st iteration
+
+i =0, j =0
+
+i =0, j=1
+
+2nd Iteration
+
+i =1, j=0
+
+i =1, j=1
+
+3rd Iteration
+
+i =2, j=0
+
+i =2, j=1
+
+and so on....
+
+
+
+Complexity will be O(n^2)  although it also have nested loop
+
+Time complexity of nested loops is equal to the number of times the innermost statement is executed. 
+
+
+C. Loop will execute n*(n-1) times.
+
+in first iteration value for i will be zero and for j it will be from n-1 to 1 .
+
+
+for example take n=5
+
+
+1st iteration
+
+i =0, j =4
+
+i =0, j=3
+
+i =0, j=2
+
+i =0, j=1
+
+
+2nd Iteration
+
+i =1, j=4
+
+i=1, j=3
+
+i=1, j=2
+
+i=1, j=1
+
+and so on...
+
+Complexity will be O(n^2)  although it also have nested loop
+
+Time complexity of nested loops is equal to the number of times the innermost statement is executed. 
+
+
+d.for this scenario first loop will run n times j loop will run less n-1 times.
+
+lets take example of n=5
+
+in first iteration i=0 then j should be less than 0 so in inside loop will not execute because contidion not met.
+in second loop i=1 then for inside loop j==0 then j%3 will return 0 then it will print i = 1, j=0
+          now i =1 and j<i , then it will return false and exit the entire loop.
+
+please look below for below output for n=5
+
+  i =1  j= 0
+  i =2  j= 0
+  i =3  j= 0
+  i =4  j= 0
+  i =4  j= 3
+
+Complexity for this also O(n2) due to nested loop

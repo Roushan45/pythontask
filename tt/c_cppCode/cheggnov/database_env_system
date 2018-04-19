@@ -1,0 +1,25 @@
+Database environment is logically grouping of softwares/API. That used to store and process the stored data.
+Database systems can be centralized, or client-server, where one server machine executes work on behalf of multiple client machines
+
+It consists of below main components:
+
+1)End Users : it is the interface that when a user interact with Database for storing and processing the stored data.
+Mode of interactions can be differ like GUI/API/Console. An example when end user interact with facebook
+they can store the media or can retrieve the stored data.
+
+2)Application : This section consists of software like Operating System, Database sofware like (Microsoft SQL,Oracle,MySql,mongodb etc).
+This also includes the networking and access control.
+
+3)software (Query processing) : As name suggets this is the query processor means it convert high level sql queries
+to low level instruction that can be feed to database system or its os.
+
+4)software (Data access) : Used to access the data to and from the database, to enter new data, update existing data, or retrieve required data from databases.
+This is the stage where actually row/data get affected in database memory.
+
+5)Database Metadata : This is also called data of data that is metadata meta stands for most information technology usages means
+description of data. it contains basic/important information about data, which can make finding and working with particular instances of data easier.
+For example, author, date created and date modified and file size are examples of very basic document metadata.
+
+6)Database : This is place where data get stored in structured way.
+It has the data base engine for processing the data.a database schema is a skeletal structure which represents the logical view of the complete database.
+It describes how the data is organized and how the relations among them are associated and formulates all the constraints that are to be applied to the data.

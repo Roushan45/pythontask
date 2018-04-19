@@ -1,0 +1,15 @@
+Dennis Ritchie
+Computer Science
+30.00
+Brian Kernighan
+Computer Science
+26.00
+Grace Hooper
+Computer Science
+28.00
+Emmy Noether
+Mathematician
+35.00
+Albert Einstien
+Physicist
+38.00

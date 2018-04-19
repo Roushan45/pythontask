@@ -1,0 +1,22 @@
+1100112 + 11012  
+
+please note that binary no consist of only one(1) and zero(0) so two is the base
+110011 is binary no with base 2
+1101 is binary no with base 2
+
+Converetd to 8 bit binary and by using 1's complement addition done.
+in binary addition 1+1 = 0 and carry 1
+1+0 = 1
+0+0 = 0
+
+Addition 
+
+carry
+   11111
+ 00110011
++00001101
+-----------
+ 01000000
+ 
+ so result is  01000000
+

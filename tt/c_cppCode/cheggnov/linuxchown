@@ -1,0 +1,52 @@
+Hi Chris,
+
+Please find below the detailed solution.
+
+After observing the below output
+ls -l
+
+-rwxr--r--1 cole division 0 2009 - 02 -10 04:59 bank
+
+-rwxr--r--1 cole division 0 2010 - 01 -04 04:59 database
+
+-rwxr--r--1 cole division 0 2010 - 09 - 17 04:59 project
+
+-rwxr--r--1 cole division 0 2011 - 07 - 23 04:59 school
+
+all the scripts belong to user cole and it have the 744 permission means only root and user can execute(x) the
+scripts so cole i the owner of that files.
+
+Why can't Chris run the scripts listed in this output? What command should you use to give Chris the permission needed to run them?
+Ans: if Chris added in sudoers group then can run the script by using sudo command like 
+sudo ./<script_name>
+then it will ask the password.
+
+first method:
+User Chris can run the script the using sudo command.
+
+second method:
+IF owner of file will change to Chris then chris can run
+change owner: below command need to run as sudo previlege
+sudo chown Chris <script_name> 
+after firing the above command user Chris will owner of that file. and can run the script without using sudo command
+./<script_name>
+
+chmod is abbreviated for change mode is used set the permission of resources.
+in linux read(r) permission identified as 4
+write(w) as 2 and execute(x) as 1  so total max permission will be 7.
+
+pro of chmod and sudo:
+after changing the ownership he can do whatever with file with root privelege.
+no need to chage the file permission , user can run another user's file with root privelege.
+
+con of chmod and sudo:
+If possible then give as nuch less permission to user to your file because it will be potentially harmful
+to give full permission.
+using sudo user can use another resources which might be sensitive and not supposed to use by user.
+
+Hope this solution will help you out.
+Please do let me know if you have any concern/queries.
+
+Thanks,
+Rakesh
+Linux Help Desk

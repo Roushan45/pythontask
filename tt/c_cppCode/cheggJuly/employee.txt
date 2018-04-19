@@ -1,0 +1,4 @@
+rippetoe 324 23 12.50
+walton 435 5 1000.00
+billerson 235 45 13.23
+cratchit 123 60 5.00

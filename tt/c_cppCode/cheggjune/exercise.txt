@@ -1,0 +1,4 @@
+Elliptical,06/10/17,great workout,40,400,135
+Treadmill,06/12/17,doggin it,20,150,120
+Stationary Bike,06/15/17,felt good,30,200,130
+Elliptical,06/20/17,great-worked out with Mike,45,350,140

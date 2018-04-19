@@ -1,0 +1,207 @@
+Hi,
+
+Just solved your problem as per your reuirement , please find the below code and also attached sample output.
+
+I have wrriten the code in JAVA.
+
+
+
+Milk.Java
+
+public class Milk {
+
+    
+    private float item_price;
+    private int quantity;
+    
+    //Default Constructor
+    public Milk(){
+            
+        }
+        
+    //Parameterized constructor
+    public Milk(float item_price, int quantity){
+            this.item_price= item_price;
+            this.quantity  = quantity;
+        }
+    
+    //setters and getters
+    public float getItem_price() {
+        return item_price;
+    }
+    public void setItem_price(float item_price) {
+        this.item_price = item_price;
+    }
+    public int getQuantity() {
+        return quantity;
+    }
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
+    }
+    public float total_price(){
+        return item_price*quantity;
+    }
+    @Override
+    public String toString() {
+        return "Milk [item_price=" + item_price + ", quantity=" + quantity + "]";
+    }
+    
+    }
+
+
+
+Bread.java
+
+public class Bread {
+
+    
+    private float item_price;
+    private int quantity;
+    
+    //Default constructor
+    
+    public Bread(){
+            
+        }
+        //Parameterized constructor
+    public Bread(float item_price,int quantity){
+            this.item_price= item_price;
+            this.quantity = quantity;
+            
+        }
+    public float getItem_price() {
+        return item_price;
+    }
+    public void setItem_price(float item_price) {
+        this.item_price = item_price;
+    }
+    public int getQuantity() {
+        return quantity;
+    }
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
+    }
+    public float total_price(){
+        return item_price*quantity;
+    }
+    @Override
+    public String toString() {
+        return "Milk [item_price=" + item_price + ", quantity=" + quantity + "]";
+    }
+    
+
+}
+
+
+
+Eggs.java
+
+public class Eggs {
+
+    private float item_price;
+    private int quantity;
+    
+    //Default constructor
+    
+        public Eggs(){
+                
+            }
+            //Parameterized constructor
+        public Eggs(float item_price,int quantity){
+                this.item_price= item_price;
+                this.quantity = quantity;
+                
+            }
+        
+    public float getItem_price() {
+        return item_price;
+    }
+    public void setItem_price(float item_price) {
+        this.item_price = item_price;
+    }
+    public int getQuantity() {
+        return quantity;
+    }
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
+    }
+    public float total_price(){
+        return item_price*quantity;
+    }
+    @Override
+    public String toString() {
+        return "Milk [item_price=" + item_price + ", quantity=" + quantity + "]";
+    }
+    
+
+}
+
+
+
+Grocery.java
+
+
+
+public class Grocery {
+
+    
+    private Milk myMilk;
+    private Bread myBread;
+    private Eggs myEggs;
+    
+    public Grocery(Milk myMilk, Bread myBread, Eggs myEggs) {
+        
+        this.myMilk = myMilk;
+        this.myBread = myBread;
+        this.myEggs = myEggs;
+    }
+    public String toString(){
+        System.out.println("Item \tUnit price \tQuantity");
+        return "Milk \t$"+myMilk.getItem_price()+" \t\t"+myMilk.getQuantity()+
+                "\nBread \t$"+myBread.getItem_price()+" \t\t"+myBread.getQuantity()+
+                "\nEggs \t$"+myEggs.getItem_price()+" \t\t"+myEggs.getQuantity();
+    }
+    public void expense(){
+        
+        System.out.println("---------------------------------------------------");
+        System.out.println("\nCalculating total price per individually item");
+        System.out.println("\nItem  \tTotal Price");
+        System.out.println("Milk  \t$"+myMilk.total_price());
+        System.out.println("Bread  \t$"+myBread.total_price());
+        System.out.println("Eggs  \t$"+myEggs.total_price());
+        
+        System.out.println("------------------------------------------------------");
+        System.out.println("\nCalculating total expense including all items");
+        System.out.println("Total Price \t$"+(myMilk.total_price()+myBread.total_price()+myEggs.total_price()));
+        
+    }
+    
+    
+
+}
+
+
+
+For demonstration of above written a Driver class
+
+Driver.java
+
+//Driver class to demonstrate functionality
+
+public class Driver {
+
+    public static void main(String[] args) {
+        Milk milk = new Milk(3, 3);
+        Bread bread = new Bread(4,6);
+        Eggs eggs = new Eggs(5,9);
+        Grocery gro = new Grocery(milk, bread, eggs);
+        System.out.println(gro.toString());
+        gro.expense();
+    }
+
+}
+
+
+
+Output
+

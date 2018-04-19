@@ -1,0 +1,54 @@
+Rule - Enforce password hitory
+
+Policy Statement-> On changing password it should not match the previous 24 passwords of user.
+		   Policy settings determines the number of unique new password associated with user
+		   Account before an old password can be reused.
+		   Many User in Organization wants to reuse the same password for their account, if
+		   the user keep longer same password then security breacheds chances will be more.
+------------------------------------------------------------------------------------------------------------------
+	           
+Rule - Maximum Password Age
+
+Policy Statement-> From time when existing user change/set password or new User account created password
+		   Should be change within 42 days.Policy setting determines the period of time (in days) 
+		   that a password can be used before the system requires the user to change it.
+		   
+----------------------------------------------------------------------------------------------------------------------
+Rule - Minimum Password Age
+
+Policy Statement-> Configure the minimum password age to be more than 0 if you want Enforce password history to be effective.
+		   Without a minimum password age, users can cycle through passwords 
+		   Setting the Minimum password age to 1 it will resist user to change password frequently.
+		   if you configure the Enforce password history policy setting to ensure that users cannot reuse any of their last 24 passwords,
+		   but you do not configure the Minimum password age policy setting to a number that is greater than 0, users could change their
+		   password 25 times in a few minutes and reuse their original password. You must configure this policy setting to a number that is
+                   greater than 0 for the Enforce password history policy setting to be effective.
+---------------------------------------------------------------------------------------------------------------------------
+
+Rule - Minimum Password Length
+
+Policy Statement-> On chnaging password , length of password should not be less than 7 characters.
+		   If password length will be less than 7 digits then the chance of user account to be attacked
+		   by the attackers will gain more. It always best practice to set policy for minimum password 
+		   length more than 6 characters.
+
+-------------------------------------------------------------------------------------------------------------------------------
+Rule - Password Complexity Requirement
+
+Policy Statement-> The policy setting must determines the  whether passwords must meet complexity requirements. 
+		   Complexity requirements are enforced when passwords are changed or created.
+		   whether passwords must meet complexity requirements. Complexity requirements are enforced when passwords are changed or created.
+		   for password complexity can set multilple policy like:
+		   Passwords must not contain the user's entire same account name
+		   Password Must contain Nonalphanumeric characters: ~!@#$%^&*_-+=`|\(){}[]:;"'<>,.?/
+		   Password must conatin one uppercase and lowercase letter
+----------------------------------------------------------------------------------------------------------------------------
+Rule - Store passwords using reversible encryption
+
+Policy Statement-> Enabling Store Passwords Using Reversible Encryption determines whether Windows stores passwords using reversible encryption.
+		   Enabling this is essentially the same as storing passwords in plain text which is insecure and not recommended. 
+		   The purpose of this policy setting is to provide support for applications that use protocols that require knowledge of 
+		   the user's password for authentication purposes.The intent of this policy is to provide support for applications 
+		   which use protocols that require knowledge of the user password for authentication purposes.
+                   Storing passwords using reversible encryption is essentially the same as storing clear-text versions of the passwords. 
+                   For this reason, this policy should never be enabled unless application requirements outweigh the need to protect password information.
